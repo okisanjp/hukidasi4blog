@@ -1,35 +1,33 @@
 hukidasi4blog
 =============
-## Blogなどで使いやすい吹き出しのhtml/cssコードです
-![サンプル画像](./sample/h4b.png)
+## It is a html / css code of the balloon and easy-to-use, such as Blog
+![ex.](./sample/h4b.png)
 
-## 参考・謝辞
-アシアルブログさんのエントリにインスパイアされて
+## Reference · Acknowledgements
+It was inspired by the entry of 'Asial blog'
+
 http://blog.asial.co.jp/1140
 
- - 顔アイコン対応
- - コンテンツが伸びても追従
- - 横幅をBlogに合わせて可変
- - 色を調整
- - 左に顔、右に吹き出し
+### Part that I have changed
+- Support for display of face icon
+- The follow-up to the width of the content
+- Change the color tone
+- The face icon on the left side, the balloon on the right
 
-的な改造を施しました。
+thank you.
 
-アシアルブログさん、ありがとうございます。
+## usage
+ - Add to Blog by modifying appropriate style.css
+ - describe the background-image the url and you have something of any face icon
+ - write your comment in the div.comment_inner tags: code.html
 
-## 使い方
- - style.cssを適宜修正してBlogに追加
- -- 顔アイコンは任意のものを用意してurlをbackground-imageに記述してください
- - code.htmlの、div.comment_innerタグの中にコメントを書いてください。任意のHTMLが使えると思います。
-
-## TextExpander使いの方へのTips
-Blog執筆にTextExpander（Mac用のスニペットアプリ）を使っている方であれば
+## Tips for TextExpander users
 
 ```
-<h3>最後に一言</h3>
+<h3>Comment</h3>
 <div class="comment_outer">
 <div class="comment_inner">%|</div>
 </div>
 ```
 
-のようなコードをスニペットとして登録しておけば、キャレットがdiv.comment_innerタグの中に移動するのでより便利かと思います。
+I think if more convenient if you register as a code snippet, the caret is moved in the div.comment_inner tag.
